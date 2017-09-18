@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php
+$firstname = $_GET["firstname"];
+$lastname = $_GET["lastname"];
+$utm_campaign = $_GET["utm_campaign"];
+$utm_term = $_GET["utm_term"];
+$utm_source = $_GET["utm_source"];
+$utm_medium = $_GET["utm_medium"];
+$utm_content = $_GET["utm_content"];
+?>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,11 +24,7 @@
                     <a href="">logo</a>
                 </nav>
                 <nav class="login">
-                    <form action="login.php" method="post">
-                        <input type="text" name="user" value="user">
-                        <input type="text" name="pass" value="pass">
-                        <input type="submit" value="Submit">
-                    </form>
+                    login
                 </nav>
                 <nav class="navigation">
                     <ul>
@@ -39,20 +46,11 @@
                     banner
                 </article><!--class="banner"-->
                 <article class="bloque-izq">
-                    bloque izq
-                </article> <!--class="bloque-izq"-->
+                    bloque-izq
+                </article> <!--class="texto"-->
                 <article class="bloque-der">
-                    bloque der
-                    <aside class="form">
-                        <form action="page2.php" method="post">
-                            First name:<input type="text" name="firstname" value="Mickey">
-                            <br>
-                            Last name:<input type="text" name="lastname" value="Mouse">
-                            <br><br>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </aside>
-                </article> <!--class="bloque-der"-->
+                    Hola! <?php echo $firstname; ?>
+                </article> <!--class="texto"-->
             </section> <!--class="cuerpo"-->
             <footer class="footer">
                 footer

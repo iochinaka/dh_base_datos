@@ -1,0 +1,110 @@
+/* INICIO = SETEOS ESTANDAR */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1{
+  font-family: 'Kaushan Script', cursive;
+  padding: 5px;
+  margin: 3px;
+  font-size: 1.2em;
+  color: blue;
+  float: left;
+}
+h2, h3 {
+  font-family: 'Baloo+Tamma', sans-serif;
+  width: 100vw;
+}
+p{
+  font-family: 'Marvel', sans-serif;
+}
+/* FIN = SETEOS ESTANDAR */
+
+.container{
+  border: solid 1px green;
+  margin: 2px;
+}
+.header{
+    border: solid 1px red;
+    overflow: hidden;
+    margin: 2px 2px 5px 2px;
+}
+.logo{
+    border: solid 1px blue;
+    float: left;
+    margin: 2px;
+}
+.login{
+    border: solid 1px blue;
+    display: inline-block;
+    float: inherit;
+    margin: 2px;
+}
+.navigation{
+    border: solid 1px blue;
+    float: right;
+    margin: 2px;
+}
+.navigation li{
+    display: inline-block;
+    border: solid 1px white;
+    margin: 2px;
+}
+.cuerpo{
+    border: solid 1px red;
+    overflow: hidden;
+    margin: 2px 2px 5px 2px;
+}
+.titulo{
+    border: solid 1px brown;
+    display: block;
+    float: left;
+    width: 100vw;
+    margin: 2px;
+}
+.carrousel{
+    border: solid 1px black;
+    display: block;
+    float: left;
+    width: 100vw;
+    margin: 2px;
+}
+.banner{
+    border: solid 1px green;
+    display: block;
+    float: left;
+    width: 100vw;
+    margin: 2px;
+}
+.bloque-izq{
+    border: solid 1px grey;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.bloque-der{
+    border: solid 1px grey;
+    display: block;
+    float: right;
+    margin: 2px;
+}
+.form{
+    border: solid 1px blue;
+    display: block;
+    float: left;
+    width: 45vw;
+    margin: 2px;
+}
+.footer{
+    border: solid 1px red;
+    margin: 2px;
+}
